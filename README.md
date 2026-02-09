@@ -59,19 +59,33 @@ Predicts sentiment as Positive or Negative
 sentiment-analysis-movie-reviews/
 │
 ├── main.py                 # Main application file
+
 ├── analysis.pkl            # Trained sentiment analysis model
+
 ├── IMDB Dataset.csv        # Dataset file
+
 ├── log.py                  # Logging configuration
+
 ├── README.md               # Project documentation
+
 ▶️ How to Run the Project
+
 1️⃣ Install Required Libraries
+
 pip install numpy pandas nltk tensorflow scikit-learn matplotlib
+
 2️⃣ Download NLTK Resources
+
 import nltk
+
 nltk.download('punkt')
+
 nltk.download('wordnet')
+
 nltk.download('stopwords')
+
 3️⃣ Run the Application
+
 python main.py
 
 📌 **Sample Input**
