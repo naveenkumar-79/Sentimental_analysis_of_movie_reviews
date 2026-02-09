@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Sentiment Analyzer</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #000000, #2c2c2c);
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 80px;
+        }
+
+        h1 {
+            color: #ffcc00;
+            font-size: 32px;
+            text-shadow: 2px 2px 8px black;
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            width: 45%;
+            height: 120px;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            font-size: 14px;
+            outline: none;
+        }
+
+        button {
+            margin-top: 18px;
+            padding: 10px 28px;
+            font-size: 16px;
+            background-color: #ffcc00;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #ffaa00;
+        }
+
+        .result-box {
+            margin-top: 25px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffcc00;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h1>🎬 Sentiment Analysis of Movie Review</h1>
+
+    <form action="/" method="POST">
+        <textarea name="review" placeholder="Enter your movie review here..." required></textarea>
+        <br>
+        <button type="submit">Analyze Review</button>
+    </form>
+
+    {% if prediction %}
+        <div class="result-box">
+            Result: {{ prediction }}
+        </div>
+    {% endif %}
+</div>
+</body>
+</html>
