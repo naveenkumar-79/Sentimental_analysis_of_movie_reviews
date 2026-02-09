@@ -57,6 +57,7 @@ Predicts sentiment as Positive or Negative
 📂 **Project Structure**
 
 sentiment-analysis-movie-reviews/
+
 │
 ├── main.py                 # Main application file
 
@@ -92,7 +93,7 @@ python main.py
 
 review = "This movie was absolutely amazing with great performances"
 
-📄 Sample Output
+📄 **Sample Output**
 
 Prediction of the review: positive
 
@@ -132,7 +133,7 @@ Improve accuracy using LSTM / Bi-LSTM / Transformers
 
 Contributions, suggestions, and improvements are welcome!
 
-📬 Contact
+📬 **Contact**
 
 Name: P.Naveen Kumar
 
