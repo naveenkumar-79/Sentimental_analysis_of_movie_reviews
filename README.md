@@ -58,7 +58,6 @@ Predicts sentiment as Positive or Negative
 
 sentiment-analysis-movie-reviews/
 
-│
 ├── main.py                 # Main application file
 
 ├── analysis.pkl            # Trained sentiment analysis model
