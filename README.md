@@ -77,8 +77,11 @@ python main.py
 📌 **Sample Input**
 
 review = "This movie was absolutely amazing with great performances"
+
 📄 Sample Output
+
 Prediction of the review: positive
+
 🎯 **Use Cases**
 
 Movie review analysis
